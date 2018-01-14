@@ -235,7 +235,7 @@ function NotGrid:CliqueHandle(button) -- if/else for Clique handling is done in 
 			local lsSpell,lsRank = LazySpell:ExtractSpell(foundspell)
 			if self.HealComm.Spells[lsSpell] and lsRank == 1 then
 				local lsRank = LazySpell:CalculateRank(lsSpell, this.unit)
-				foundspell = lsSpell.."(Rank "..lsRank..")"
+				foundspell = lsSpell..L["(Rank "]..lsRank..")"
 			end
 		end
 		CastSpellByName(foundspell) -- then cast it, but note that because we've cleared target to cast it we're just "spelltargeting"
