@@ -81,6 +81,87 @@ L:RegisterTranslations("enUS", function() return {
 
 } end)
 
+L:RegisterTranslations("deDE", function() return {
+["Dead"] = "Tod",
+["Ghost"] = "Geist",
+["Spirit of Redemption"] = "Geist der Erlösung",
+["%s of %s"] = "%s von %s",
+-- ["Default Friendly"] = true,
+["(Rank "] = "(Rang ",
+
+["Rejuvenation"] = "Verjüngung",
+["Magic"] = "Magie",
+["Poison"] = "Gift",
+["Curse"] = "Fluch",
+["Disease"] = "Krankheit",
+["Mortal Strike"] = "Tödlicher Stoß",
+
+-- ["Unit Width"] = true,
+-- ["Unit Height"] = true,
+-- ["Unit Border"] = true,
+-- ["Unit Padding"] = true,
+-- ["Font"] = true,
+-- ["Texture"] = true,
+-- ["Name"] = true,
+-- ["Name Length"] = true,
+-- ["Health"] = true,
+-- ["Highlight Target"] = true,
+-- ["Aggro Warning"] = true,
+-- ["Mana Warning"] = true,
+-- ["Healcomm"] = true,
+-- ["Healcomm Text"] = true,
+-- ["Top Left Icon"] = true,
+-- ["Top Icon"] = true,
+-- ["Top Right Icon"] = true,
+-- ["Right Icon"] = true,
+-- ["Bottom Right Icon"] = true,
+-- ["Bottom Icon"] = true,
+-- ["Bottom Left Icon"] = true,
+-- ["Left Icon"] = true,
+-- ["Proximity Leeway"] = true,
+-- ["Use Map Proximity"] = true,
+-- ["Smart Center"] = true,
+-- ["Show While Solo"] = true,
+-- ["Show In Party"] = true,
+-- ["Show Party In Raid"] = true,
+-- ["Disable Mouseover In Combat"] = true,
+-- ["Locked"] = true,
+
+-- ["Orientation"] = true,
+-- ["Show Blizz Frames"] = true,
+-- ["Growth Direction"] = true,
+
+-- ["CombatEvents"] = {
+	-- ["CHAT_MSG_SPELL_PERIODIC_PARTY_BUFFS"] = "(%a+) gains %a.+", --%a on the last just to make sure its not a digit
+	-- ["CHAT_MSG_SPELL_PERIODIC_PARTY_DAMAGE"] = "(%a+) is afflicted by .+",
+	-- ["CHAT_MSG_SPELL_PERIODIC_FRIENDLYPLAYER_BUFFS"] = "(%a+) gains %a.+",
+	-- ["CHAT_MSG_SPELL_PERIODIC_FRIENDLYPLAYER_DAMAGE"] = "(%a+) is afflicted by .+",
+
+	-- ["CHAT_MSG_SPELL_PARTY_BUFF"] = "(%a+) begins .+", --I don't get this message for party members? Only friendly?
+	-- ["CHAT_MSG_SPELL_FRIENDLYPLAYER_BUFF"] = "(%a+) begins .+",
+	-- ["CHAT_MSG_SPELL_PARTY_DAMAGE"] = "(%a+) begins .+",
+	-- ["CHAT_MSG_SPELL_FRIENDLYPLAYER_DAMAGE"] = "(%a+) begins .+",
+
+	-- ["CHAT_MSG_SPELL_AURA_GONE_PARTY"] = ".+ fades from (%a+)%.",
+	-- ["CHAT_MSG_SPELL_AURA_GONE_OTHER"] = ".+ fades from (%a+)%.", -- will pick up hostile fades as well as freind, but I won't have them in rosterlib so whatevs
+
+	-- ["CHAT_MSG_SPELL_SELF_BUFF"] = "Your .+ heals (%a+) for .+"
+-- },
+
+-- ["Alterac Valley"] = "Alterac Valley",
+-- ["Arathi Basin"] = "Arathi Basin",
+-- ["Warsong Gulch"] = "Warsong Gulch",
+
+-- ["Show Power Bar"] = true,
+-- ["Power Position"] = true,
+-- ["Power Size"] = true,
+
+-- ["Config Mode"] = true,
+
+-- ["Background"] = true,
+
+} end)
+
 L:RegisterTranslations("ruRU", function() return {
 ["Dead"] = "Мертв",
 ["Ghost"] = "Призрак",
